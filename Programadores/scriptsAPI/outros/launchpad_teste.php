@@ -25,5 +25,5 @@
 	foreach($json->entries[1] as $key => $value) {
 		//mostra as opcoes/tags de cada projecto bem como o seu valor
 		print_r("<b>[".$key."]</b> => ".$value."<br>");
-	}
+	} //teste
 ?>

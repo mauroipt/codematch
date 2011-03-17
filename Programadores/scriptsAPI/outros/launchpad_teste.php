@@ -1,8 +1,8 @@
 <?php
 	$ch = @curl_init();
-	curl_setopt($ch, CURLOPT_URL, "https://api.launchpad.net/1.0/projects");
-	curl_setopt($ch, CURLOPT_USERAGENT, 'Googlebot/2.1');
-	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+		curl_setopt($ch, CURLOPT_URL, "https://api.launchpad.net/1.0/projects");
+		curl_setopt($ch, CURLOPT_USERAGENT, 'Googlebot/2.1');
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 	$page = curl_exec( $ch);
 	curl_close($ch);
 	//descodifica uma string json
